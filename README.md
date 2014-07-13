@@ -23,9 +23,9 @@ Warning: some c++11 features are used in sources, so the higher GCC version you 
 
 
 Things to do in new version:
-	*	Implement logging to file
-	*	Implement some scheduling algorythm improvements
-	*	Test for bugs in disconnection
-	*	Implement socket version of communication
-	*	Make interactive (create report, show queue, etc.)
-	*	Imrove logging mechanics (separate logger class)
+	**	Implement logging to file
+	**	Implement some scheduling algorythm improvements
+	**	Test for bugs in disconnection
+	**	Implement socket version of communication
+	**	Make interactive (create report, show queue, etc.)
+	**	Imrove logging mechanics (separate logger class)
