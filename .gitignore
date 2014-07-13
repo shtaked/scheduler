@@ -1,0 +1,7 @@
+# skip hidden files
+.*
+!.git*
+
+# skip user-specifc project stuff
+project.xcworkspace/
+xcuserdata/
