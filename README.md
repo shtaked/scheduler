@@ -20,12 +20,14 @@ Also you can set available resources count.
 
 To compile both targets just use make in root directory.
 Warning: some c++11 features are used in sources, so the higher GCC version you use the better. I recommend >= 4.8.
-
+Also you can use XCode on Mac OS X, then are special .xcodeproj target files for this
 
 Things to do in new version:
-	**	Implement logging to file
-	**	Implement some scheduling algorythm improvements
-	**	Test for bugs in disconnection
-	**	Implement socket version of communication
-	**	Make interactive (create report, show queue, etc.)
-	**	Imrove logging mechanics (separate logger class)
+**	Implement logging to file
+**	Implement some scheduling algorythm improvements
+**	Test for bugs in disconnection
+**	Implement socket version of communication
+**	Make interactive (create report, show queue, etc.)
+**	Imrove logging mechanics (separate logger class)
+
+
