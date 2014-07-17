@@ -1,7 +1,7 @@
 Scheduler v 0.1
 
 Implementation of distributed computing system's logics.
-Scheduler can receive to kind of inputs: jobs and free resurces.
+Scheduler can receive 2 kind of inputs: jobs and free resurces.
 Input comes on POSIX fifo (named pipe), but there can be another implementations of message receivers (sockets for example)
 
 Scheduler receives jobs as a tuples : (3 7) (10 2) (5 5), etc., where first value means resource units that job needs, and second is
